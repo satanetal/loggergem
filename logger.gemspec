@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "loggergem/version"
+require "logger/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "loggergem"
-  spec.version       = Loggergem::VERSION
+  spec.name          = "logger"
+  spec.version       = Logger::VERSION
   spec.authors       = ["Vetal, Dima, Vlad"]
   spec.email         = ["dubstepkillah@gmail.com"]
 
